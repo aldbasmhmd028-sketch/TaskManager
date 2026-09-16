@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream>
 #include "TaskManager.h"
 
 using namespace std;
@@ -9,6 +9,7 @@ int main()
 
     ShowTasks();
     AddTask();
+	EditTask();
     DeleteTask();
 
     return 0;

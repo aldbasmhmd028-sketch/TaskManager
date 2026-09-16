@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream>
 #include "TaskManager.h"
 
 using namespace std;
@@ -15,4 +15,8 @@ void AddTask()
 void EditTask()
 {
     cout << "Task edited successfully." << endl;
+
+void DeleteTask()
+{
+    cout << "Task deleted successfully." << endl;
 }
